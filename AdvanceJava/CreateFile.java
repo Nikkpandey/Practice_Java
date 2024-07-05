@@ -14,7 +14,7 @@ public class CreateFile {
 
         System.out.println("Enter the text (@ at the end): ");
         char ch;
-        // Read data from DataInputStream and write it into FileOutputStream
+        // Read data from DataInputStream and write it into BufferedReader
         while((ch=(char)dis.read())!='@'){
             bos.write(ch);
         }
